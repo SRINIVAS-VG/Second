@@ -4,7 +4,7 @@ Taskify is a versatile task management application designed to help you efficien
 
 This project was initiated with [create-react-app](https://create-react-app.dev/docs/running-tests/). 
 
-## Project Screen Shot
+## Project Screen Shot and Video
 
 When the application is initiated, its initial appearance is as follows
 
@@ -14,6 +14,9 @@ When the application is initiated, its initial appearance is as follows
 The user can add a task by clicking on the "+" button and entering the name of the task in the input field provided. The added tasks
 
 ![2](https://github.com/SRINIVAS-VG/Task-Management/assets/66298502/ea233ccc-0189-46e3-bb90-e1c39d712ef6)
+
+You can watch the demo video for the task management app below:
+
 
 
 ## Installation and Setup Instructions
