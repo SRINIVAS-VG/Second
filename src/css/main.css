@@ -69,7 +69,6 @@ body {
   width: 3.2rem;
   height: 3.2rem;
   cursor: pointer;
-  border-style: outset;
   box-shadow: 3px 5px 7px #271c6c;
 
   display: flex;
