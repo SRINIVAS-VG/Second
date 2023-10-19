@@ -19,6 +19,11 @@ You can watch the demo video for the task management app below:
 
 
 
+https://github.com/SRINIVAS-VG/Taskify/assets/66298502/428a3c36-7205-437f-93bd-afce119252d0
+
+
+
+
 ## Installation and Setup Instructions
 
 Clone down this repository. You will need node and npm installed globally on your machine.
