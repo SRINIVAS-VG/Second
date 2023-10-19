@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 function App() {
   return (
     <div className="App">
-      <h1>Task Management</h1>
+      <h1>Taskify</h1>
       <div>
         <Todos />
         <DisplayTodos />
