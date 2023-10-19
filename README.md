@@ -8,10 +8,12 @@ This project was initiated with [create-react-app](https://create-react-app.dev/
 
 When the application is initiated, its initial appearance is as follows
 
+![1](https://github.com/SRINIVAS-VG/Task-Management/assets/66298502/c2f01b25-fedd-4b69-867e-5afc20c5ffb5)
 
 
 The user can add a task by clicking on the "+" button and entering the name of the task in the input field provided. The added tasks
 
+![2](https://github.com/SRINIVAS-VG/Task-Management/assets/66298502/ea233ccc-0189-46e3-bb90-e1c39d712ef6)
 
 
 ## Installation and Setup Instructions
