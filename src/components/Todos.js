@@ -1,23 +1,13 @@
 import React, { useState } from "react";
-import { connect } from "react-redux";
+import { useDispatch} from "react-redux";
 import { addTodos } from "../redux/reducer";
 import { GoPlus } from "react-icons/go";
 
 import { Button } from "react-bootstrap";
 
-const mapStateToProps = (state) => {
-  return {
-    todos: state,
-  };
-};
+const Todos = () => {
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    addTodo: (obj) => dispatch(addTodos(obj)),
-  };
-};
-
-const Todos = (props) => {
+  const dispatch = useDispatch();
   const [todo, setTodo] = useState("");
 
   const handleChange = (e) => {
@@ -28,11 +18,13 @@ const Todos = (props) => {
     if (todo === "") {
       alert("Input is Empty");
     } else {
-      props.addTodo({
-        id: Math.floor(Math.random() * 1000),
-        item: todo,
-        completed: false,
-      });
+      dispatch(
+        addTodos({
+          id: Math.floor(Math.random() * 1000),
+          item: todo,
+          completed: false,
+        })
+      );
       setTodo("");
     }
   };
@@ -46,10 +38,7 @@ const Todos = (props) => {
         value={todo}
       />
 
-      <Button variant ="warning"
-        className="add-btn"
-        onClick={() => add()}
-      >
+      <Button variant="warning" className="add-btn" onClick={() => add()}>
         <GoPlus />
       </Button>
       <br />
@@ -57,4 +46,4 @@ const Todos = (props) => {
   );
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Todos);
+export default Todos;
