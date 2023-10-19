@@ -15,6 +15,13 @@ The user can add a task by clicking on the "+" button and entering the name of t
 
 ![2](https://github.com/SRINIVAS-VG/Task-Management/assets/66298502/ea233ccc-0189-46e3-bb90-e1c39d712ef6)
 
+You can watch the demo video for the task management app below:
+
+
+
+https://github.com/SRINIVAS-VG/Taskify/assets/66298502/428a3c36-7205-437f-93bd-afce119252d0
+
+
 
 ## Installation and Setup Instructions
 
