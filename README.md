@@ -1,4 +1,4 @@
-# Task Management Applicatrion - Taskify
+# Task Management Application - Taskify
 
 Taskify is a versatile task management application designed to help you efficiently manage your tasks by breaking them down into smaller, more manageable subtasks. With Taskify, you can effortlessly keep tabs on your active and completed tasks while also having the convenience to view all your tasks in one organized platform 
 
