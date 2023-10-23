@@ -2,6 +2,12 @@
 
 Taskify is a versatile task management application designed to help you efficiently manage your tasks by breaking them down into smaller, more manageable subtasks. With Taskify, you can effortlessly keep tabs on your active and completed tasks while also having the convenience to view all your tasks in one organized platform 
 
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
+
 This project was initiated with [create-react-app](https://create-react-app.dev/docs/running-tests/). 
 
 ## Project Screen Shot and Video
